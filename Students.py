@@ -24,7 +24,7 @@ def manage_student_database():
     print(f"Total number of students are {count}")
     print(names)
     student_names : str = [name[1] for name in names]
-    length_of_name : int = [len(name[1]) for name in names]
+    # length_of_name : int = [len(name[1]) for name in names]
     all_names : str = ''.join(student_names)
     print(f"Total length of all student names combined: {len(all_names)}")
 
